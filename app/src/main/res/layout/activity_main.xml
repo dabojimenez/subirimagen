@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCamara1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camara" />
+
+    <ImageView
+        android:id="@+id/imgv1"
+        android:layout_width="match_parent"
+        android:layout_height="106dp" />
+
+    <Button
+        android:id="@+id/btnCamara2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camara" />
+
+    <ImageView
+        android:id="@+id/imgv2"
+        android:layout_width="match_parent"
+        android:layout_height="106dp" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Nombre"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txtCarpeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Carpeta"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txtOrigen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Origen"
+        android:inputType="textMultiLine|text"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enviar" />
+
+
+</LinearLayout>

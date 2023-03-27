@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConsumirApiRest</string>
+    <string name="btnCamara1">ConsumirApiRest</string>
+    <string name="btnCamara2">ConsumirApiRest</string>
+</resources>
